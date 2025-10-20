@@ -16,8 +16,8 @@ public class Employee2 {
             System.out.print("Enter your age");
             int employeeAge = sc.nextInt();
 
-            System.out.print("Enter your addres");
-            String employeeAdress = sc.next();
+            System.out.print("Enter your address");
+            String employeeAddress = sc.next();
 
             System.out.print("Enter your salary");
             double employeeSalary = sc.nextDouble();
@@ -27,7 +27,7 @@ public class Employee2 {
             employee.nic = employeeNic;
             employee.name = employeeName;
             employee.age = employeeAge;
-            employee.address = employeeAdress;
+            employee.address = employeeAddress;
             employee.salary = employeeSalary;
 
             employees[i]=employee;

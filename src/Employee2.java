@@ -5,7 +5,6 @@ public class Employee2 {
 
         Employee[] employees = new Employee[5];
 
-
         for (int i = 0; i < 5; i++) {
             System.out.print("Enter your Nic");
             String employeeNic = sc.next();

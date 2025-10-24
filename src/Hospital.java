@@ -7,13 +7,13 @@ public class Hospital {
 
 
         for(int i=0; i<5;i++){
-            System.out.println("Enter name");
+            System.out.print("Enter name");
             String patientName=sc.next();
 
-            System.out.println("enter age");
+            System.out.print("enter age");
             int patientAge=sc.nextInt();
 
-            System.out.println("enter addres");
+            System.out.print("enter addres");
             String patienceAddres=sc.next();
 
             Patience patience=new Patience();

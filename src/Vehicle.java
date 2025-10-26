@@ -8,4 +8,5 @@ public class Vehicle {
 
 
     public void turnOnWiper(){}
+    public void startEngine(){}
 }

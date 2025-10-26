@@ -4,7 +4,6 @@ public class AllVehicle {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
 
-
        NewVehicle[] vehicles=new NewVehicle[10];
 
             for (int i = 0; i < vehicles.length; i++) {
@@ -29,11 +28,9 @@ public class AllVehicle {
                 vh.horn();
             }
 
-
-
         }
 
-        public static NewVehicle createCar() {
+        public static NewCar createCar() {
             NewCar car = new NewCar();
             System.out.print("Enter Brand: ");
             car.setBrand(sc.next());
@@ -51,7 +48,7 @@ public class AllVehicle {
             van.setBrand(sc.next());
             System.out.print("Enter Model: ");
             van.setModel(sc.next());
-            System.out.print("Has Power Mirror (true/false): ");
+            System.out.print("Has Power Mirror): ");
             van.setHavePowerMirror(sc.nextBoolean());
             System.out.print("Enter Price: ");
             van.setPrice(sc.nextDouble());
@@ -63,12 +60,11 @@ public class AllVehicle {
                 bus.setBrand(sc.next());
                 System.out.print("Enter Model: ");
                 bus.setModel(sc.next());
-                System.out.print("Has Sensor (true/false): ");
+                System.out.print("Has Sensor): ");
                 bus.setSensor(sc.nextBoolean());
                 System.out.print("Enter No. of Seats: ");
                 bus.setNoOfSeats(sc.nextInt());
                 return bus;
             }
-
     }
 

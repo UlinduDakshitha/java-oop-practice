@@ -7,7 +7,7 @@ public class Bus extends Van {
     }
 
     public void setSensor(boolean sensor) {
-        isSensor = sensor;
+        this.isSensor= sensor;
     }
 
     public int getNoOfSeats() {

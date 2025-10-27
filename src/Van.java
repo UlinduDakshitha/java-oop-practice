@@ -9,7 +9,7 @@ public class Van extends NewCar {
     }
 
     public void setHavePowerMirror(boolean havePowerMirror) {
-        isHavePowerMirror = havePowerMirror;
+       this.isHavePowerMirror  = havePowerMirror;
     }
 
     public double getPrice() {

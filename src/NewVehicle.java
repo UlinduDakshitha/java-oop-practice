@@ -19,7 +19,7 @@ public class NewVehicle {
         return model;
     }
 
-    public void horn() {
+    public void horn()  {
         System.out.println(" horn sound");
     }
 }
